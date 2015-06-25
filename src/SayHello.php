@@ -1,6 +1,6 @@
 <?php 
 
-namespace HelloWorld;
+namespace mchelen\HelloWorld;
 
 class SayHello
 {
