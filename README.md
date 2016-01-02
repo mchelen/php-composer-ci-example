@@ -7,11 +7,11 @@ It includes configuration for PHPUnit testing.
 Install
 =======
 
-  composer install
+    composer install
 
 
 
 Testing
 =======
 
-  composer test
+    composer test
