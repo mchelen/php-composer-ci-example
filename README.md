@@ -21,4 +21,5 @@ Testing
 References
 ==========
 
-  https://github.com/thephpleague/flysystem
+ - https://github.com/thephpleague/flysystem
+ - http://doc.gitlab.com/ce/ci/languages/php.html
