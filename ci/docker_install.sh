@@ -10,5 +10,9 @@ apt-get update -yqq
 apt-get install git -yqq
 
 # Install phpunit, the tool that we will use for testing
-curl -o /usr/local/bin/phpunit https://phar.phpunit.de/phpunit.phar
-chmod +x /usr/local/bin/phpunit
+#curl -o /usr/local/bin/phpunit https://phar.phpunit.de/phpunit.phar
+#chmod +x /usr/local/bin/phpunit
+
+# Install composer dependencies
+- curl -sS https://getcomposer.org/installer | php
+- php composer.phar install
