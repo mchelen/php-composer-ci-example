@@ -7,5 +7,6 @@ php:
   - hhvm
   - nightly
 
-install: travis_retry composer install
+install: travis_retry composer update
 
+script: composer test
