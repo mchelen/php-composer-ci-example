@@ -14,5 +14,5 @@ apt-get install git -yqq
 #chmod +x /usr/local/bin/phpunit
 
 # Install composer dependencies
-- curl -sS https://getcomposer.org/installer | php
-- php composer.phar install
+curl -sS https://getcomposer.org/installer | php
+php composer.phar install
